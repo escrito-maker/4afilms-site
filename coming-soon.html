@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>4A Films</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--ease-out:cubic-bezier(.23,1,.32,1);--g:max(clamp(20px,5vw,72px),env(safe-area-inset-left,0px),env(safe-area-inset-right,0px));color-scheme:dark}
+html{scroll-behavior:smooth}
+[id]{scroll-margin-top:24px}
+::selection{background:#C8A15A;color:#0A2A33}
+p{text-wrap:pretty}
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+section:first-of-type img,section:first-of-type h1,section:first-of-type h2,section:first-of-type p,section:first-of-type .btn,section:first-of-type .ghost{animation:rise 420ms var(--ease-out) both}
+section:first-of-type h1{animation-delay:70ms}
+section:first-of-type p{animation-delay:130ms}
+section:first-of-type .btn,section:first-of-type .ghost{animation-delay:190ms}
+body{margin:0;background:#0F3A44;color:#F4F1EA;font-family:'Montserrat',Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+a{color:inherit;text-decoration:none}
+a.nav{transition:color 150ms ease}
+.btn,.ghost{transition:transform 160ms var(--ease-out),background-color 160ms ease}
+.btn:active,.ghost:active{transform:scale(.97)}
+a[style*="flex-direction:column"] img{transition:transform 240ms var(--ease-out),filter 240ms ease;will-change:transform}
+a[style*="flex-direction:column"]:active img{transform:scale(.985)}
+@media (hover:hover) and (pointer:fine){
+ a.nav:hover{color:#D4AF6A}
+ .btn:hover{background:#D4AF6A}
+ .ghost:hover{background:#1F4D59}
+ a[style*="flex-direction:column"]:hover img{transform:translateY(-4px);filter:brightness(1.06)}
+}
+a:focus-visible{outline:3px solid #D4AF6A;outline-offset:3px}
+img{max-width:100%;height:auto!important}
+h1{font-size:clamp(44px,7.5vw,104px)!important;overflow-wrap:anywhere;text-wrap:balance}
+h2{font-size:clamp(28px,4.2vw,44px)!important;text-wrap:balance}
+section,header,footer{box-sizing:border-box}
+@media (max-width:760px){
+ section[style]{padding-top:64px!important;padding-bottom:64px!important}
+ header nav{gap:12px 20px!important;font-size:13px!important}
+ [style*="gap:96px"],[style*="gap:72px"]{gap:40px!important}
+ [style*="min-width:320px"]{min-width:0!important}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}section:first-of-type *{animation-name:none!important}a[style*="flex-direction:column"]:hover img{transform:none!important}}
+</style>
+</head>
+<body>
+<div style="width:100%;box-sizing:border-box;background:#0F3A44;color:#F4F1EA;font-family:'Montserrat',Helvetica,sans-serif">
+
+<header style="display:flex;align-items:center;justify-content:space-between;padding:24px var(--g);border-bottom:1px solid #1F4D59;flex-wrap:wrap;gap:16px">
+<a href="home.html" style="display:flex;align-items:center;gap:14px">
+<img src="logo-mark-gold.png" alt="4A Films logo mark" width="60" height="52" style="width:60px;height:52px;display:block">
+<span style="font-weight:800;font-size:22px;letter-spacing:1px;color:#D4AF6A">4A FILMS</span>
+</a>
+<nav style="display:flex;align-items:center;gap:36px;font-size:14px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;flex-wrap:wrap">
+<a class="nav" href="home.html">Home</a><a class="nav" href="home.html#about">About</a><a class="nav" href="five-questions.html">Five Questions</a><a class="nav" href="the-drive.html">The Drive</a><a class="nav" href="coming-soon.html" style="color:#D4AF6A;border-bottom:2px solid #D4AF6A;padding-bottom:4px">Coming Soon</a>
+<a class="btn" href="https://4afilms.com/contact/" target="_blank" rel="noopener" style="background:#C8A15A;color:#0A2A33;padding:14px 26px;font-weight:700;border-radius:2px">Contact Us</a>
+</nav>
+</header>
+
+<section style="background:#0A2A33;padding:100px var(--g)">
+<div style="max-width:1296px;margin:0 auto;display:flex;gap:96px;align-items:center;flex-wrap:wrap;justify-content:center">
+<div style="width:440px;max-width:100%"><img src="untitled-art.jpg" alt="Untitled project key art: a quantum computer framed by a circuit-board border in cross-stitch" style="width:100%;aspect-ratio:2/3;object-fit:cover;display:block;border:1px solid #C8A15A"></div>
+<div style="flex:1;min-width:320px;max-width:640px;display:flex;flex-direction:column;gap:28px">
+<p style="margin:0;font-size:14px;font-weight:600;letter-spacing:6px;text-transform:uppercase;color:#C8A15A">A 4A Films Production</p>
+<span style="align-self:flex-start;background:#C8A15A;color:#0A2A33;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:8px 14px">In Post-Production</span>
+<h1 style="margin:0;font-size:96px;font-weight:800;line-height:.95;color:#D4AF6A">Untitled Project</h1>
+<p style="margin:0;font-size:20px;line-height:1.7;color:#C9D6D8">Thanksgiving &ndash; the time of year when you leave the ones you love to be with your family.</p>
+<p style="margin:0;font-size:16px;font-weight:600;letter-spacing:2px;text-transform:uppercase">Directed by David Arrow &nbsp;&middot;&nbsp; Written by David Folwell</p>
+<div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:8px">
+<a class="btn" href="https://4afilms.com/contact/" target="_blank" rel="noopener" style="background:#C8A15A;color:#0A2A33;padding:18px 36px;font-weight:700;font-size:15px;letter-spacing:2px;text-transform:uppercase;border-radius:2px">Get in touch</a>
+<a class="ghost" href="https://www.facebook.com/profile.php?id=61550540065984" target="_blank" rel="noopener" style="border:2px solid #C8A15A;color:#F4F1EA;padding:16px 34px;font-weight:700;font-size:15px;letter-spacing:2px;text-transform:uppercase;border-radius:2px">Follow on Facebook</a>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding:110px var(--g);max-width:1296px;margin:0 auto;box-sizing:border-box">
+<div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid #1F4D59;padding-bottom:20px;margin-bottom:48px;flex-wrap:wrap;gap:12px">
+<h2 style="margin:0;font-size:44px;font-weight:800;letter-spacing:1px">Where It Stands</h2>
+<span style="font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#C8A15A">Production status</span>
+</div>
+<ol style="margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px"><li style="list-style:none;border-top:4px solid #C8A15A;background:transparent;padding:20px 20px 28px;display:flex;flex-direction:column;gap:10px"><span style="font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#C8A15A">Step 01</span><span style="font-size:22px;font-weight:700;color:#F4F1EA;line-height:1.2">Development</span><span style="font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#C8A15A">Complete</span></li><li style="list-style:none;border-top:4px solid #C8A15A;background:transparent;padding:20px 20px 28px;display:flex;flex-direction:column;gap:10px"><span style="font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#C8A15A">Step 02</span><span style="font-size:22px;font-weight:700;color:#F4F1EA;line-height:1.2">Production</span><span style="font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#C8A15A">Complete</span></li><li style="list-style:none;border-top:4px solid #D4AF6A;background:#0A2A33;padding:20px 20px 28px;display:flex;flex-direction:column;gap:10px"><span style="font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#C8A15A">Step 03</span><span style="font-size:22px;font-weight:700;color:#D4AF6A;line-height:1.2">Post-Production</span><span style="font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#FFFFFF">We are here</span></li><li style="list-style:none;border-top:4px solid #1F4D59;background:transparent;padding:20px 20px 28px;display:flex;flex-direction:column;gap:10px"><span style="font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#C8A15A">Step 04</span><span style="font-size:22px;font-weight:700;color:#C9D6D8;line-height:1.2">Festival Submissions</span><span style="font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#C9D6D8">Upcoming</span></li><li style="list-style:none;border-top:4px solid #1F4D59;background:transparent;padding:20px 20px 28px;display:flex;flex-direction:column;gap:10px"><span style="font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#C8A15A">Step 05</span><span style="font-size:22px;font-weight:700;color:#C9D6D8;line-height:1.2">Release</span><span style="font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#C9D6D8">Upcoming</span></li></ol>
+</section>
+
+<section style="padding:110px var(--g);max-width:1296px;margin:0 auto;box-sizing:border-box">
+<div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid #1F4D59;padding-bottom:20px;margin-bottom:32px">
+<h2 style="margin:0;font-size:44px;font-weight:800;letter-spacing:1px">Cast &amp; Crew</h2>
+<span style="font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#C8A15A">More to be announced</span>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));column-gap:48px"><div style="border-top:1px solid #1F4D59;padding:20px 0"><div style="font-size:12px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#C8A15A;margin-bottom:8px">Director</div><div style="font-size:20px;font-weight:600">David Arrow</div></div><div style="border-top:1px solid #1F4D59;padding:20px 0"><div style="font-size:12px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#C8A15A;margin-bottom:8px">Writer</div><div style="font-size:20px;font-weight:600">David Folwell</div></div><div style="border-top:1px solid #1F4D59;padding:20px 0"><div style="font-size:12px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#C8A15A;margin-bottom:8px">Producer</div><div style="font-size:20px;font-weight:600">Leon Derriey</div></div><div style="border-top:1px solid #1F4D59;padding:20px 0"><div style="font-size:12px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#C8A15A;margin-bottom:8px">Director of Photography</div><div style="font-size:20px;font-weight:600">Mark Raker</div></div><div style="border-top:1px solid #1F4D59;padding:20px 0"><div style="font-size:12px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#C8A15A;margin-bottom:8px">Composer</div><div style="font-size:20px;font-weight:600">David Robbins</div></div><div style="border-top:1px solid #1F4D59;padding:20px 0"><div style="font-size:12px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#C8A15A;margin-bottom:8px">Cast</div><div style="font-size:20px;font-weight:600;color:#C9D6D8">To be announced</div></div></div>
+</section>
+
+<section style="padding:110px var(--g);text-align:center;display:flex;flex-direction:column;align-items:center;gap:24px;background:#0B0B0B">
+<h2 style="margin:0;font-size:44px;font-weight:800;color:#D4AF6A">Follow the journey.</h2>
+<p style="margin:0;font-size:18px;color:#C9D6D8;max-width:560px;line-height:1.6">News, first looks and screening announcements as this film heads toward release.</p>
+<a class="btn" href="https://4afilms.com/contact/" target="_blank" rel="noopener" style="background:#C8A15A;color:#0A2A33;padding:18px 40px;font-weight:700;font-size:15px;letter-spacing:2px;text-transform:uppercase;border-radius:2px">Contact Us</a>
+</section>
+
+<section style="padding:110px var(--g);max-width:1296px;margin:0 auto;box-sizing:border-box">
+<div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid #1F4D59;padding-bottom:20px;margin-bottom:48px">
+<h2 style="margin:0;font-size:44px;font-weight:800;letter-spacing:1px">Also from 4A Films</h2>
+</div>
+<div style="display:flex;gap:64px;flex-wrap:wrap">
+<a href="five-questions.html" style="display:flex;gap:32px;align-items:center;flex-wrap:wrap">
+<img src="poster-five-questions.jpg" alt="Five Questions poster" style="width:200px;aspect-ratio:2/3;object-fit:cover;display:block;border:1px solid #C8A15A">
+<div style="display:flex;flex-direction:column;gap:10px"><h3 style="margin:0;font-size:30px;font-weight:700">Five Questions</h3><span style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#D4AF6A">View film &rarr;</span></div>
+</a>
+<a href="the-drive.html" style="display:flex;gap:32px;align-items:center;flex-wrap:wrap">
+<img src="poster-the-drive.jpg" alt="The Drive poster" style="width:200px;aspect-ratio:2/3;object-fit:cover;display:block;border:1px solid #C8A15A">
+<div style="display:flex;flex-direction:column;gap:10px"><h3 style="margin:0;font-size:30px;font-weight:700">The Drive</h3><span style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#D4AF6A">View film &rarr;</span></div>
+</a>
+</div>
+</section>
+
+<footer style="display:flex;justify-content:space-between;align-items:center;padding:32px var(--g);font-size:13px;color:#C9D6D8;flex-wrap:wrap;gap:16px;border-top:1px solid #1F4D59">
+<span>Copyright &copy; 2026 4 A Films</span>
+<span style="display:flex;gap:28px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase"><a href="https://www.imdb.com/title/tt22876758/" target="_blank" rel="noopener">IMDb</a><a href="https://www.facebook.com/profile.php?id=61550540065984" target="_blank" rel="noopener">Facebook</a></span>
+</footer>
+</div>
+</body>
+</html>
